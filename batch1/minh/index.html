@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Introduce myself</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <style>
+  body {
+  background-image: url("https://images.pexels.com/photos/1308624/pexels-photo-1308624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1000");}
+  h1{
+  text-align: center;
+  font-family:'Itim', cursive;
+  color:rgb(128, 191, 255);}
+  h4{margin-top: 1.5em;
+  font-family:'Dancing Script', cursive;}
+  
+  .navbar {
+  background-color: rgb(77, 219, 220);}
+  .nav-link {
+    color: rgb(120, 120, 120);
+    font-family: fantasy;}
+	.navbar-brand {
+    font-family:'Montserrat', sans-serif;}
+    .S-inf, .my-ability {
+    font-size: 2em;}
+    
+    .carousel-inner img {
+      width: 78%;}
+    .c1 {
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1532692966749-619e0feb9e78?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a6fdde97ec0324246a1d1a071ef81ff9&auto=format&fit=crop&w=500&q=60);
+    background-position: center;background-size: cover;}
+    .c2 {
+    color: black;
+    background-image: url(https://images.unsplash.com/photo-1503756234508-e32369269deb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=47b63db904d2c72377ffc588f645eb45&auto=format&fit=crop&w=500&q=60);
+    background-position: center;background-size: cover;}
+    
+    
+    .project {
+    color: yellow;
+    }
+    
+    .pro-lan {
+    font-family: fantasy;}
+    
+    
+    #first-inf {
+    color: white;}
+    
+    @media only screen and (max-width: 576px) {
+    .navbar {display: none;}
+    }
+  </style>
+</head>
+<body>
+	<!-- navbar -->
+	<nav class="navbar navbar-expand-sm justify-content-center fixed-top">
+    <a class="navbar-brand" href="#">MDV</a>
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.facebook.com/minhkyuuby">Facebook</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="mailto:minhkyuuby@gmail.com">Gmail</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Instagram</a>
+    </li>
+  </ul>
+</nav>
+
+    <img class="img-fluid" src="https://images.pexels.com/photos/340901/pexels-photo-340901.jpeg">
+
+    <div class="container">
+    <!-- avt -->
+    <img class=" rounded mx-auto d-block" src="https://scontent.fhan3-1.fna.fbcdn.net/v/t1.0-9/35682339_223676535100721_899556990064263168_n.jpg?_nc_cat=0&oh=a600b10f127d2c292608aa6d023669cf&oe=5C3780D8" alt="avt" style="width:34%; margin-top:-7em; margin-bottom:1em;">
+    
+    <!-- somethings about me-->
+    <h1 style="border-bottom: 1.5px solid white;"> Van Minh Doan </h1>
+    <h3 class="text-center" id="first-inf"><strong> I'm a beginner in programming. My current ability is basic knowledge of web programming with programming languages such as HTML, CSS, JS, ...</strong></h3>
+    
+    
+    <!-- infor card deck -->
+    <div class="card-deck" style="border-top: 1.5px solid white; padding-top: 1.5em; margin-bottom: 2em;">
+    <div class="card c1">
+      <div class="card-body">
+      	<p class="text-center"> <strong class="S-inf">My personal information</strong> <p>
+        <p class="card-text">My name: Van Minh Doan.</p>
+        <p class="card-text">Age: 15.</p>
+        <p class="card-text">Academic level: Class 10, High school.</p>
+        <p class="card-text">Address: Tan Quang commune, Ninh Giang district
+, Hai Duong, Viet Nam.</p>
+		<p class="card-text">Contact me:</p>
+        <button type="button" class="btn btn-outline-primary"><a href="https://www.facebook.com/minhkyuuby">
+        Facebook</a>
+        </button>
+        
+        <button type="button" class="btn btn-outline-warning"><a href="mailto:minhkyuuby@gmail.com" class="text-warning">Gmail</a></button>
+        <p class="card-text text-success" style="margin-top:1.5em;"><strong>+ Phone number: 01653167258.</strong></p>
+      </div>
+    </div>
+    	
+        <!--Achieve -->
+    <div class="card c2">
+      <div class="card-body">
+        <p class="card-text text-center my-ability"><strong>My programming ability</strong></p>
+        <p class="card-text"><strong>Programming languages:</strong></p>
+        
+        <p class="card-text pro-lan">+ HTML & CSS</p>
+        <p class="card-text pro-lan">+ JS Basic</p>
+        <p class="card-text pro-lan">+ SQL Basic</p>
+        
+        <p class="text-center">
+        <strong>always try to improve my skills<br>
+         -MDV- </strong></p>
+      </div>
+    </div>
+    </div>  
+    
+    <button data-toggle="collapse" class="btn-lg btn-outline-light btn-block" data-target="#proj">Projects completed</button>
+
+		<div id="proj" class="collapse">
+        <a class="project" href="https://intecavn.github.io/batch1/minh/project2.html">- My first webpage</a><br>
+        <a class="project" href="https://intecavn.github.io/batch1/minh/project2.html">- My webpage with using Bootstrap</a>
+        </div>
+       </div>
+  
+  
+  <h4 class="container text-center text-warning"><strong> People say developers are bland but I always want to be a dynamic young person!<br> Besides programming, I have many other passions.</strong></h4>
+       
+  
+  <div id="footer" class="carousel slide" data-ride="carousel">
+<!-- footer -->
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#footer" data-slide-to="0" class="active"></li>
+    <li data-target="#footer" data-slide-to="1"></li>
+    <li data-target="#footer" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="mx-auto d-block" src="https://lh3.googleusercontent.com/m2K-IXogtGP95c8FbIvvHkQ2QLzeNkQGaOjfOLN5oSXfSSKCIgoAoMlYgOtK29ovGZ121UCz07wMAT-uk2o0r0yZ7_XJTFokMeAUfq4SibKkHYIgxRH7rL2IfA2osjOCt0lzOeg9MVWyZMgNVQxmOMI8IIIZzvLH6MxoKIVYMIs6sTB_Yk3Al1IB71xszb_lOdzMClvF-hcqM32kMeREt4lAOl3rcGm3UP1kTU6i_49orizHFXW7zn6bWsVUGfoaGgHQ8LF4gUQEBiSd7fhfUxy76t4kMRKX0xT2ASi_0e52NmDB2IhhfnamYC9_-2ymVq907ze_Z7NMfOoP84Vlqsz0wpMvdyMnusio8g3I1Coi5m_ZtgKrNNy7bhCrgengTO2QDYPDZjY5xcJErsmSDJdXMLYUWgVINKD0vWP1i1o6lXrpBOPLnkA6OdN-7madSx8RG-9lytcG_8gRaIHQnlgmI6RjeZUUs2SClyr0J6CFJLXqd6mLWsoc1PYpqMEFvWYxxNmemzWsDbGbqsa6t6IDVqaxRDhQYlSozBxitJBwDakcdYyXVBrH29Z2JzkOB9YemQiWfgciLiEERMssau430D4NVv0Q4NI1xW-vMPxyCJF3mUiTZrvn9USKTqs=w1280-h720-no" alt="Cubing">
+    </div>
+    <div class="carousel-item">
+      <img class="mx-auto d-block" src="https://lh3.googleusercontent.com/sFqCloxzcw99WOBJhue54pPTaW8ZBRuUZSVkgyIywlF8zeCn565yiJAYxWQLz-3uNh3slu8yXfnWgnmRX5vMbRSrorykBcWOUYbrQ4bm2VqlmfyBStO-eWE0juOXWRrMZEjFOOq4Cep4Eprma8I69zIGM3zPU9Zs7yo2kNIOFTNAggMbZ9EXIpHihsqWF-7YBIrq83f4OjUeGi4D6RWhHv7P-5OH2NmxHBM_rCByfrZVGlDxYRJJT9SOwN1K-T3KfCADgOn-zGLCFV4Z-1E7Y7IEz4S4GcRjNvAUfCOksxPfyfxgxAbZg5PZK9BaAj2ltvejIoFqCyX_c65ae_O4gkA0VByEOAo71ccSGwwELV651f-7SdzGKUakx2Mbd-RH6yXI2v38BTkMNAni0-nvM57xwBF9loyd3TZUESgWEA9YbWanI2diqTr3T9Appw2HCkpzi3kXJRMasXfraSDiLfMcxGgZh_gxG6PQf6ptJbAimm_-ClAPerxhz0hZJTLtM9lbq9B9FRaGUrgrD71BcbyRtgriyoPngZ_dRPH9x7lBcBfk-Bzob9kHqwbqe7goceyl92n9gRF7rsiXilejwqHW9moDVSS6jOhMUj8jx99pXXLiR-gohGRHhY7-jlg=w1723-h969-no" alt="Computer">
+    </div>
+    <div class="carousel-item">
+      <img class="mx-auto d-block" src="https://lh3.googleusercontent.com/OIMG3V79XyPmx9JPvSM61GC5vIaVmz-sd9CRuvo-kPsyiD-LR7UM-rfjXj7WgcsCldfO3opnFE1hiIZOqTqXzvo4_jlno8rRxqeulKtv_dv9As-ZxX5gFepItD8qhEfmqv7DmZ3771aNs0to71iqiFoKGJos_lMTSaH96A9hSnoL_QXaFGPX76J9RbmRkZ_sF6zvz03NEfxFFv0-kQA_dz5xcsbTnosJxpMmxVHHTIHXmfSvG4FtQhOTlu6MmJjsxchweIKkOxY5x3WKoBMKeVv2hACtFHR7N4pq2ZzCidQjVwZY1LO1YjpbPsS0haBPSegO9JKccw0ZnRzGHTnU7VjTY0aIW2gdrn6e5bpC0YjUAtSPKZ3pf6AAP8o4ckWpGNHrMbGhOyiH5j8fxUCwEokPy_uibUxJLNXiO33WeoBmhXc_dkgc_YmhsiPLVLcrdkfdWYLVmjvT1fZJwiPSwXSX-SVOGEVChbYvqBjyb2DGJAtXf3XILPWopNkbO2GqP-SogYxLGbrH7WwjHG2JGLihyfm5kbzgN1HrazpBTZSKT3lsgf6C4TJ0ebd9EU3bN_31Fg-Itt9XOUMQxf0-ZkoXjUwpIPObHf3SairF9vfYo76cck69LVKa2beFIA=w720-h405-no" alt="My friends">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#footer" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#footer" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</body>
+</html>
