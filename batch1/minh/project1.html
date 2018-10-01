@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        #myDIV {
+            display: none;
+            width: 100%;
+            padding: 50px 0;
+            text-align: center;
+            background-color: rgb(148, 219, 120);
+            margin-top: 22px;
+        }
+
+        name {
+            font-weight: bold;
+        }
+
+        city {
+            font-weight: bold;
+        }
+
+        mobile {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick=" notify()">Thông tin của bạn</button>
+
+
+
+    <script>
+        function notify() {
+            alert("Chào mừng bạn đến với ứng dụng JavaScript đầu tiên của developer tập sự MDV :))");
+            alert("Cho mình biết một chút thông tin của bạn nha!");
+            var name = prompt("Hãy nhập tên của bạn");
+            document.getElementById("name").innerHTML = name;
+            var city = prompt("Hãy nhập tên thành phố bạn đang sống");
+            document.getElementById("city").innerHTML = city;
+            var mobile = prompt("Hãy nhập số điện thoại của bạn");
+            document.getElementById("mobile").innerHTML = mobile;
+        }
+
+        function myFunction() {
+            var x = document.getElementById("myDIV");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
+    <p id=name> name </p>
+    <p id=city> city </p>
+    <p id=mobile> mobile </p>
+
+    <button onclick="myFunction()">Bước tiếp theo</button>
+    <div id="myDIV">
+        Shi shi shi. Gửi tiền để làm bước tiếp theo nhóe :)))
+    </div>
+
+</body>
+
+</html>

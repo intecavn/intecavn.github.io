@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Phuc">
+    <style>
+        div {
+            display: none
+        }
+    </style>
+</head>
+
+<body>
+    <p>Click the button to display an alert box.</p>
+    <button onclick="notify()">Try it</button>
+    <p id="name"></p>
+    <p id="city"></p>
+    <p id="mobile"></p>
+    <div id="abc">
+        <button>Bước tiếp theo</button>
+    </div>
+
+
+
+
+    <script>
+        function notify() {
+            alert("Chào mừng bạn đến với ứng dụng JavaScript đầu tiên");
+            var a = prompt("Hãy nhập tên của bạn", '');
+            var z = prompt("Hãy nhập thành phố bạn đang sống", '');
+            var y = prompt("Hãy nhập số điện thoại của bạn", '');
+
+            document.getElementById("name").innerHTML = a;
+            document.getElementById("city").innerHTML = y;
+            document.getElementById("mobile").innerHTML = z;
+            var x = document.getElementById("abc");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
